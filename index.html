@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SlideShow</title>
+  </head>
+  <body>
+    <!--
+        Container geral
+    -->
+    <div class="content">
+      <!--
+        Slides
+
+        Imagens e inputs
+      -->
+      <div class="slides">
+        <input class="input" type="radio" name="slide" id="slide1" />
+        <input class="input" type="radio" name="slide" id="slide2" />
+        <input class="input" type="radio" name="slide" id="slide3" />
+
+        <div class="slide">
+          <img src="./img/s-0.jpeg" />
+        </div>
+
+        <div class="slide">
+          <img src="./img/s-1.jpeg" />
+        </div>
+
+        <div class="slide">
+          <img src="./img/s-2.jpeg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+        Navegação com Labels
+    -->
+    <div class="navigation">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+    </div>
+  </body>
+</html>
